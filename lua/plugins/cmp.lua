@@ -1,6 +1,6 @@
 return {
   {
-    "/L3MON4D3/LuaSnip",
+    "L3MON4D3/LuaSnip",
     dependencies = {
       "saadparwaiz1/cmp_luasnip",
       "rafamadriz/friendly-snippets"
@@ -51,7 +51,7 @@ return {
           { name = 'buffer' }
         }
       })
-      
+
       -- disable 
       --[[
       -- Use cmdline & path source for ':' (if you enabled `native_menu`, this won't work anymore)

@@ -24,6 +24,7 @@ return {
       local lspconfig = require("lspconfig")
 
       vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, {})
+      vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, {})
     end
   }
 }
